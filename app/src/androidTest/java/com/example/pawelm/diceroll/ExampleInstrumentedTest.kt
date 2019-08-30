@@ -1,4 +1,4 @@
-package com.example.pawelm.rng
+package com.example.pawelm.diceroll
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.example.pawelm.rng
+package com.example.pawelm.diceroll
 
 import org.junit.Test
 

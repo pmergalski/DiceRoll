@@ -1,4 +1,4 @@
-package com.example.pawelm.rng
+package com.example.pawelm.diceroll
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         generate_btn.setOnClickListener {
-            var random = Random()
+            val random = Random()
             var errors = false
             if (max_eT.text.toString() == "") {
                 max_eT.error = "Can not be empty!"
@@ -24,8 +24,8 @@ class MainActivity : AppCompatActivity() {
                 errors = true
             }
             if(!errors) {
-                var max = max_eT.text.toString().toInt()
-                var min = min_eT.text.toString().toInt()
+                val max = max_eT.text.toString().toInt()
+                val min = min_eT.text.toString().toInt()
 
                 if (max <= min) {
                     max_eT.error = "Maximum value must be bigger than minimal"

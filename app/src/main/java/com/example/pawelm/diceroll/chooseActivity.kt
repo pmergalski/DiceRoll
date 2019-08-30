@@ -1,4 +1,4 @@
-package com.example.pawelm.rng
+package com.example.pawelm.diceroll
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
